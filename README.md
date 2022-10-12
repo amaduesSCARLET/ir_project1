@@ -1,2 +1,2 @@
-# lucene_demo
-ir_project
+# ir_project
+lucene_demo
