@@ -1,0 +1,21 @@
+digraph "cufe.ir.lucene:lucene_demo:jar:1" { 
+	"cufe.ir.lucene:lucene_demo:jar:1" -> "org.junit.jupiter:junit-jupiter-api:jar:5.9.1:test" ; 
+	"cufe.ir.lucene:lucene_demo:jar:1" -> "org.apache.lucene:lucene-core:jar:9.4.0:compile" ; 
+	"cufe.ir.lucene:lucene_demo:jar:1" -> "org.apache.lucene:lucene-queryparser:jar:9.4.0:compile" ; 
+	"cufe.ir.lucene:lucene_demo:jar:1" -> "org.apache.lucene:lucene-analysis-common:jar:9.4.0:compile" ; 
+	"cufe.ir.lucene:lucene_demo:jar:1" -> "org.apache.lucene:lucene-demo:jar:9.4.0:compile" ; 
+	"cufe.ir.lucene:lucene_demo:jar:1" -> "org.apache.lucene:lucene-codecs:jar:9.4.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.1:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.9.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.9.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.2:test" ; 
+	"org.apache.lucene:lucene-queryparser:jar:9.4.0:compile" -> "org.apache.lucene:lucene-queries:jar:9.4.0:compile" ; 
+	"org.apache.lucene:lucene-queryparser:jar:9.4.0:compile" -> "org.apache.lucene:lucene-sandbox:jar:9.4.0:compile" ; 
+	"org.apache.lucene:lucene-demo:jar:9.4.0:compile" -> "org.apache.lucene:lucene-facet:jar:9.4.0:runtime" ; 
+	"org.apache.lucene:lucene-demo:jar:9.4.0:compile" -> "org.apache.lucene:lucene-expressions:jar:9.4.0:runtime" ; 
+	"org.apache.lucene:lucene-facet:jar:9.4.0:runtime" -> "com.carrotsearch:hppc:jar:0.9.1:runtime" ; 
+	"org.apache.lucene:lucene-expressions:jar:9.4.0:runtime" -> "org.antlr:antlr4-runtime:jar:4.5.1-1:runtime" ; 
+	"org.apache.lucene:lucene-expressions:jar:9.4.0:runtime" -> "org.ow2.asm:asm:jar:7.2:runtime" ; 
+	"org.apache.lucene:lucene-expressions:jar:9.4.0:runtime" -> "org.ow2.asm:asm-commons:jar:7.2:runtime" ; 
+	"org.ow2.asm:asm-commons:jar:7.2:runtime" -> "org.ow2.asm:asm-tree:jar:7.2:runtime" ; 
+	"org.ow2.asm:asm-commons:jar:7.2:runtime" -> "org.ow2.asm:asm-analysis:jar:7.2:runtime" ; 
+ } 
